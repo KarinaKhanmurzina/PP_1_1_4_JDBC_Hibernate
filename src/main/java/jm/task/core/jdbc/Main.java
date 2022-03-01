@@ -10,7 +10,7 @@ public class Main {
 
 //В методе main класса Main должны происходить следующие операции:
 //1. Создание таблицы User(ов)
-        UserServiceImpl usi = new UserServiceImpl();
+        UserService usi = new UserServiceImpl();
         usi.createUsersTable();
 
 //2. Добавление 4 User(ов) в таблицу с данными на свой выбор
