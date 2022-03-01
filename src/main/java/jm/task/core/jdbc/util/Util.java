@@ -17,8 +17,6 @@ public class Util {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        connection.setAutoCommit(false);
-        return connection;
+        return DriverManager.getConnection(URL, USERNAME, PASSWORD);
     }
 }
