@@ -1,13 +1,11 @@
 package jm.task.core.jdbc;
 
-import jm.task.core.jdbc.model.User;
 import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
 
 // реализуйте алгоритм здесь
 public class Main {
     public static void main(String[] args) {
-
 //В методе main класса Main должны происходить следующие операции:
 //1. Создание таблицы User(ов)
         UserService usi = new UserServiceImpl();
